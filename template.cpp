@@ -55,6 +55,8 @@ typedef vector<bool> VB;
 #define FORALL(itr, c) for(itr = (c).begin(); itr != (c).end(); itr++)
 #define ALL(A) A.begin(), A.end()
 #define LLA(A) A.rbegin(), A.rend()
+#define UNIQUE(A) (A).resize(unique(ALL(A)) - (A).begin())
+
 //int dx[] = {-1, 0, 1, 0}, dy[] = {0, 1, 0, -1};
 //int dx[] = {1, 1, 1, 0, 0, -1, -1, -1}, dy[] = {1, 0, -1, 1, -1, 1, 0, -1};
 
